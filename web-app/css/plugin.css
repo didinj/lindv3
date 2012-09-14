@@ -1,0 +1,51 @@
+
+/* SLIDEJS =======================================*/
+/*================================================*/
+	
+	.slides_container {
+		overflow:hidden;
+		display:none;
+		position: relative;
+	}
+	
+	.slides_container a {
+		width: 939px;
+		height: 318px;
+	}
+
+	ul.control-slide-detail {
+		bottom: 20px;
+		left: 35px;
+		position: absolute;
+		display: block;
+		z-index: 99;
+		text-align: center;
+	}
+
+	ul.control-slide-detail li {
+		list-style: none;
+		float: left;
+	}
+
+	ul.control-slide-detail a {
+		display: block;
+		float: left;
+		overflow: hidden;
+		background: url(../images/navslide.png) no-repeat left top;
+		margin: 0 8px 0 0;
+		padding-top: 14px;
+		width: 14px;
+		height: 0;
+		-moz-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		border-radius: 100%;
+	}
+	
+	ul.control-slide-detail li a:hover {
+		background: url(../images/navslide.png) no-repeat left bottom;
+	}					
+	
+	ul.control-slide-detail li.current a {
+		background: url(../images/navslide.png) no-repeat left bottom;		
+	}
+	
